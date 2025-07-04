@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>灵感与作品 - 城市夜行者</title>
+    <style>
+        body { background: #181c27; color: #f5f6fa; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; }
+        .navbar { display: flex; justify-content: center; align-items: center; background: rgba(24,28,39,0.95); padding: 24px 0 12px 0; box-shadow: 0 2px 16px #0008; }
+        .navbar a { color: #00ffe7; text-decoration: none; margin: 0 24px; font-size: 1.1rem; letter-spacing: 1px; transition: color 0.2s; }
+        .navbar a:hover { color: #ff4f81; text-shadow: 0 0 8px #ff4f81; }
+        .container { max-width: 900px; margin: 60px auto 0 auto; background: rgba(24,28,39,0.85); border-radius: 16px; box-shadow: 0 4px 32px #0006; padding: 48px 32px 32px 32px; }
+        h1 { color: #ffd700; text-align: center; }
+        .works-grid { display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; margin-top: 32px; }
+        .work-card { background: #222a3a; border-radius: 14px; box-shadow: 0 2px 16px #0005; padding: 28px 24px; width: 260px; transition: box-shadow 0.2s, transform 0.2s; }
+        .work-card:hover { box-shadow: 0 4px 32px #00ffe799, 0 2px 16px #ff4f8199; transform: translateY(-6px) scale(1.03); }
+        .work-title { color: #00ffe7; font-size: 1.15rem; margin-bottom: 8px; }
+        .work-desc { color: #f5f6fa; font-size: 1rem; margin-bottom: 12px; }
+        .work-tag { display: inline-block; background: #ff4f81; color: #fff; border-radius: 10px; padding: 2px 12px; font-size: 0.92rem; margin-right: 8px; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">首页</a>
+        <a href="/about">关于我</a>
+        <a href="/info">夜话</a>
+        <a href="/works">灵感/作品</a>
+        <a href="/contact">联系</a>
+    </div>
+    <div class="container">
+        <h1>灵感与作品</h1>
+        <div class="works-grid">
+            <div class="work-card">
+                <div class="work-title">夜色随笔集</div>
+                <div class="work-desc">一组在城市夜晚创作的短篇随笔，记录灵感的闪现与思考。</div>
+                <span class="work-tag">随笔</span>
+            </div>
+            <div class="work-card">
+                <div class="work-title">霓虹下的代码</div>
+                <div class="work-desc">用 Python 编写的城市夜景数据可视化项目，展现夜色中的数据之美。</div>
+                <span class="work-tag">数据可视化</span>
+                <span class="work-tag">Python</span>
+            </div>
+            <div class="work-card">
+                <div class="work-title">夜行者摄影</div>
+                <div class="work-desc">用镜头捕捉城市夜晚的光影，展现夜色下的独特氛围。</div>
+                <span class="work-tag">摄影</span>
+            </div>
+            <div class="work-card">
+                <div class="work-title">数字生活日志</div>
+                <div class="work-desc">记录夜晚数字生活的点滴，分享创意与成长。</div>
+                <span class="work-tag">日志</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
